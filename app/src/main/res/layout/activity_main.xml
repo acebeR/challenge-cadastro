@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgSala"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/bemvindo"/>
+    <TextView
+        android:id="@+id/lbVisual1"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_below="@+id/imgSala"
+        />
+    <TextView
+        android:id="@+id/lbEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/strgEmail"
+        android:layout_below="@+id/lbVisual1"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/lbRespEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lbEmail"
+        android:gravity="center"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/lbSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/strngSenha"
+        android:layout_below="@+id/lbRespEmail"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/lbRespSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lbSenha"
+        android:gravity="center"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/lbVisual3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/lbRespSenha"
+        />
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/strgBtnVoltar"
+        android:layout_below="@+id/lbVisual3"/>
+
+</RelativeLayout>

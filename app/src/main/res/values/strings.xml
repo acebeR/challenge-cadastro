@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Challenge</string>
+    <string name="strgEmail">Email:</string>
+    <string name="strgEmail2">rebeca@gmail.com</string>
+    <string name="strngSenha">Senha:</string>
+    <string name="strgBtnConfirma">Confirmar</string>
+    <string name="strgBtnVoltar">Voltar</string>
+</resources>

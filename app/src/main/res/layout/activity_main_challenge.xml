@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainChallenge">
+
+    <ImageView
+        android:id="@+id/imgBarraCima"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/fundo"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/lbVisual"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:id="@+id/lbEmail"
+        android:layout_width="116dp"
+        android:layout_height="20dp"
+        android:text="@string/strgEmail"
+        android:layout_below="@+id/lbVisual"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/strgEmail2"
+        android:layout_below="@+id/lbEmail"/>
+
+    <TextView
+        android:id="@+id/lbVisual1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtEmail"
+        />
+
+    <TextView
+        android:id="@+id/lbSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/strngSenha"
+        android:layout_below="@+id/lbVisual1"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/txtSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lbSenha"
+        android:password="true"/>
+    <TextView
+        android:id="@+id/lbVisual2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/txtSenha"/>
+    <Button
+        android:id="@+id/btnResp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/strgBtnConfirma"
+        android:layout_below="@+id/lbVisual2"
+        />
+    <TextView
+        android:id="@+id/lbVisual4"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/btnResp"/>
+    <TextView
+        android:id="@+id/txtErro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lbVisual4"
+        android:textColor="@color/vermelho"
+        android:gravity="center"
+        android:textSize="20sp"
+
+        />
+
+
+</RelativeLayout>
